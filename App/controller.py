@@ -237,7 +237,7 @@ def getMemory():
     """
     toma una muestra de la memoria alocada en instante de tiempo
     """
-    return tracemalloc.take_snapshot()
+    return tracemalloc.take_snapshot()  
 
 
 def deltaMemory(start_memory, stop_memory):
